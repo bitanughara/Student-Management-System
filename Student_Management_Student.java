@@ -37,7 +37,7 @@ public class Student_Management_Student{
                     else{
                         System.out.println("\nStudent List : ");
                         for(int i=0;i<total;i++){
-                            System.out.println((i+1)+"."+" "+name[i]+"          "+"Registration No. "+regNo[i]);
+                            System.out.println((i+1)+"."+" "+name[i]+"   "+"|"+"   "+"Registration No. "+regNo[i]);
                     }
                     }
                     break;
